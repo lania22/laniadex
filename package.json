@@ -1,10 +1,12 @@
 {
   "name": "lania-frontend",
+  "homepage": "https://exchange.laniadex.org/",
   "version": "2.0.0",
   "scripts": {
     "dev": "next dev -p 3008",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "build-analyze": "cross-env ANALYZE=true yarn build",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
